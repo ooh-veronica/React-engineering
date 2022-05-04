@@ -1,11 +1,7 @@
 import React from 'react'
-import stamp from '../../image//stamp.svg'
-import photoreview from '../../image/photoreview.svg'
-import polygon from '../../image/Polygon.png'
 import video from '../../image/video.png'
 
-function Content() {
-  return (
+const Content = () => (
     <div className='nav_content'>
         <div className='nav_main__container'>
             <div className='nav_main__content'>
@@ -15,7 +11,7 @@ function Content() {
             <div className='nav_main__get'>
                 <button className='button nav_button'>получить коммерческое</button>
                 <p>Отправьте техзадание и получите коммерческое предложени в течении 15 минут на свой email или в мессенджер</p>
-                
+
             </div>
         </div>
         <div className='nav_main_block container'>
@@ -32,17 +28,12 @@ function Content() {
                     </li>
                 </ul>
                 <div className='nav_video'>
-                    {/* <img style={{width:'220px', height:'220px'}} className='stamp' src={stamp} alt='video' ></img>
-                    <img src={photoreview} className='photoreview'></img>
-                    <img src={polygon} className='polygon'></img> */}
-
                     <img src={video}></img>
+                </div>
             </div>
-            </div>
-            
+
         </div>
     </div>
-  )
-}
+)
 
 export default Content

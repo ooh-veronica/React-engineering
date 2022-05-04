@@ -95,11 +95,6 @@
 
 }
 
-/* .stepone_content__review::before {
-    content: url('../../image/photoreview.svg');
-    border-radius: 100%;
-    margin-right: 20px;
-} */
 
 .review {
     margin-left: 70px;
@@ -151,6 +146,39 @@
     .stepone_image {
         width: 40%;
         height: 80%;
+    }
+}
+
+@media (max-width:780px) {
+    .stepone_container {
+        flex-direction: column;
+    }
+
+    .stepone_image {
+        order: 2;
+        object-fit: fill;
+        width: 100%;
+    }
+
+
+    .stepone_content {
+        order: 1;
+    }
+
+    .stepone_content h4 {
+        margin: 10px 0 18px 100px;
+    }
+
+    .stepone_content__text {
+        margin-left: 100px;
+    }
+
+    .review {
+        margin-left: 100px;
+    }
+
+    .stepone_content__author {
+        margin-left: 188px;
     }
 }
 

@@ -2,13 +2,12 @@ import React from 'react'
 import './Work.css'
 import tv from '../../image/tv.svg'
 
-function Work() {
-  return (
+const Work = () => (
     <section className='work container'>
-        <div className='description_container'> 
+        <div className='description_container'>
             <div className='work_description'>
                 <h3>
-                Мы работаем быстро и наши отчеты проходят согласование с первого раза
+                    Мы работаем быстро и наши отчеты проходят согласование с первого раза
                 </h3>
                 <p>Над вашим объектом работает целая команда:3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ</p>
             </div>
@@ -16,7 +15,7 @@ function Work() {
         <div className='work_image'>
             <img src={tv}></img>
         </div>
-        <div className='pluses_container'> 
+        <div className='pluses_container'>
             <div className='work_pluses'>
                 <h4>Вы и Ваши архитекторы получаете:</h4>
                 <ul className='work_list'>
@@ -33,7 +32,7 @@ function Work() {
             </div>
         </div>
     </section>
-  )
-}
+)
+
 
 export default Work

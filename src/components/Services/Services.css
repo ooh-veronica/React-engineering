@@ -38,12 +38,6 @@
     color: #FEE040;
 }
 
-
-.sevices_list {
-    display: flex;
-    margin-left: 250px;
-}
-
 .services_image{
     height: 180px;
     width: 400px;
@@ -84,11 +78,36 @@
 }
 
 .scroll-horizontal {
-  padding-left: 250px;
   display: flex;
 }
 
 
 .progress_bar{
     padding-bottom: 80px;
+}
+
+@media (max-width:1022px) {
+    
+
+    .scroll_container {
+        width: 70vw;
+        margin: 0 80px;
+    }
+
+    .scroll {
+        width: 60vw;
+        height: 100vh;
+    }
+
+    .services_item {
+        width: 60vh;
+    }
+
+    .services_text {
+        width: 350px;
+    }
+
+    .services_image {
+        width: 350px;
+    }
 }
