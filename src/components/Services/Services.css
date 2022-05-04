@@ -71,7 +71,13 @@
     opacity: 0.7;
     padding-bottom: 30px;
 }
+.marginer_left {
+    width: 250px;
+}
 
+.marginer_right {
+    width: 250px;
+}
 
 .services_item + .services_item {
     margin-left: 80px;
@@ -79,9 +85,36 @@
 
 .scroll-horizontal {
   display: flex;
+  
 }
 
 
 .progress_bar{
     padding-bottom: 80px;
+}
+
+@media (max-width:1022px) {
+    
+
+    .scroll_container {
+        width: 70vw;
+        margin: 0 80px;
+    }
+
+    .scroll {
+        width: 60vw;
+        height: 100vh;
+    }
+
+    .services_item {
+        width: 60vh;
+    }
+
+    .services_text {
+        width: 350px;
+    }
+
+    .services_image {
+        width: 350px;
+    }
 }

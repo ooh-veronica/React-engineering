@@ -1,6 +1,5 @@
 import React from 'react';
 import HorizontalScroll from 'react-scroll-horizontal';
-import { Scrollbars } from 'react-custom-scrollbars';
 import './Services.css';
 import one from '../../image/one.png';
 import two from '../../image/two.png';
@@ -14,8 +13,9 @@ const Services = () => (
       <h3>
         Выполняем как комплексное обследование, так и отдельные виды работ
       </h3>
-      <div style={{ width: '80vw', margin: '0 100px' }}>
-        <HorizontalScroll style={{ height: '444px', width: '90vw' }}>
+      <div className='scroll_container' style={{ width: '100vw'}}>
+        <HorizontalScroll pageLock={true} reverseScroll={true} className='scroll' style={{ height: '444px', width: '100vw' }}>
+          <div className='marginer_left'></div>
           <div className="services_item">
             <img className="services_image" src={one}></img>
             <h5>Общее обследование</h5>
@@ -52,28 +52,11 @@ const Services = () => (
             </p>
             <p className="services_title">Подробнее</p>
           </div>
-          <div className="services_item">
-            <img className="services_image" src={four}></img>
-            <h5>Тахеометрическая съемка</h5>
-            <p className="services_text">
-              Построение чертежей при помощи лазера, который с точностью до
-              микрона определяет расположение объектов в пространстве
-            </p>
-            <p className="services_title">Подробнее</p>
-          </div>
-          <div className="services_item">
-            <img className="services_image" src={four}></img>
-            <h5>Тахеометрическая съемка</h5>
-            <p className="services_text">
-              Построение чертежей при помощи лазера, который с точностью до
-              микрона определяет расположение объектов в пространстве
-            </p>
-            <p className="services_title">Подробнее</p>
-          </div>
+          <div className='marginer_right'></div>
         </HorizontalScroll>
       </div>
       <img className="progress_bar" src={bar}></img>
     </section>
-  );
+);
 
 export default Services;

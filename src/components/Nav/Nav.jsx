@@ -5,8 +5,7 @@ import burger from '../../image/burger.png'
 import logo from '../../image/logo.svg'
 
 
-function Nav() {
-  return (
+const Nav = () => (
     <header className='header'>
         <nav className='nav_container container'>
             <div className='nav_datalogo'>
@@ -39,7 +38,6 @@ function Nav() {
         <hr />
         <Content />
     </header>
-  )
-}
+)
 
 export default Nav
