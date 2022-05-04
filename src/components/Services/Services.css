@@ -38,12 +38,6 @@
     color: #FEE040;
 }
 
-
-.sevices_list {
-    display: flex;
-    margin-left: 250px;
-}
-
 .services_image{
     height: 180px;
     width: 400px;
@@ -84,7 +78,6 @@
 }
 
 .scroll-horizontal {
-  padding-left: 250px;
   display: flex;
 }
 
