@@ -21,16 +21,16 @@ const StepTwo = () => (
       </p>
     </div>
     <div className="steptwo_scroll" style={{ width: '100vw' }}>
-      <HorizontalScroll style={{ height: '417px', width: '100vw' }}>
+      <HorizontalScroll reverseScroll={true} style={{ height: '417px', width: '100vw' }}>
         <div className="marginer_left"></div>
         <div className="steptwo_item_container">
-          <img className="steptwo_image" src={step21}></img>
+          <img className="steptwo_image" src={step21} alt='tool'></img>
           <div className="steptwo_item">
             <p className="steptwo_text">Локатор арматуры “Profoscope”</p>
           </div>
         </div>
         <div className="steptwo_item_container">
-          <img className="steptwo_image" src={step22}></img>
+          <img className="steptwo_image" src={step22} alt='tool'></img>
           <div className="steptwo_item">
             <p className="steptwo_text">
               Измеритель прочности бетона “ОНИКС-1”
@@ -38,7 +38,7 @@ const StepTwo = () => (
           </div>
         </div>
         <div className="steptwo_item_container">
-          <img className="steptwo_image" src={step23}></img>
+          <img className="steptwo_image" src={step23} alt='tool'></img>
           <div className="steptwo_item">
             <p className="steptwo_text">
               Прибор ультразвукового действия “ПУЛЬСАР-2”
@@ -46,11 +46,17 @@ const StepTwo = () => (
           </div>
         </div>
         <div className="steptwo_item_container">
-          <img className="steptwo_image" src={step24}></img>
+          <img className="steptwo_image" src={step24} alt='tool'></img>
           <div className="steptwo_item">
             <p className="steptwo_text">
               Измеритель прочности бетона “Молоток Шмидта”
             </p>
+          </div>
+        </div>
+        <div className="steptwo_item_container">
+          <img className="steptwo_image" src={step21} alt='tool'></img>
+          <div className="steptwo_item">
+            <p className="steptwo_text">Локатор арматуры “Profoscope”</p>
           </div>
         </div>
         <div className="marginer_right"></div>

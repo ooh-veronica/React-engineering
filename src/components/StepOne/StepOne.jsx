@@ -19,7 +19,7 @@ const StepOne = () => (
                         <p className='stepone_content__text'>Мы осматриваем здание, делаем замеры и проверяем наличие визуально заметных дефектов: трещин, коррозии, повреждения фундамента и т.д. </p>
                         <div>
                             <div className='review'>
-                                <img src={photoreview}></img>
+                                <img src={photoreview} alt='photo review'></img>
                                 <p className='stepone_content__review'>“Задача этого этапа получить максимально полное представление о конструкции здания, условиях его эксплуатации и возможных слабых местах“</p>
                             </div>
                             <p className='stepone_content__author'>АЛЕКСЕЙ, обследователь и главный инженер проектов</p>

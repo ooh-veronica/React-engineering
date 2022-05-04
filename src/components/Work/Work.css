@@ -136,6 +136,10 @@
     .pluses_container::before {
         content: url('../../image/tv.svg');
         display: flex;
+        width: 280px;
+        height: 280px;
+        padding-right: 24px;
+        padding-bottom: 34px;
     }
 
     .work_pluses {

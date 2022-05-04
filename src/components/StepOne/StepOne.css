@@ -152,6 +152,7 @@
 @media (max-width:780px) {
     .stepone_container {
         flex-direction: column;
+        height: 640px;
     }
 
     .stepone_image {
@@ -163,6 +164,7 @@
 
     .stepone_content {
         order: 1;
+        
     }
 
     .stepone_content h4 {

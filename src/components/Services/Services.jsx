@@ -13,11 +13,11 @@ const Services = () => (
       <h3>
         Выполняем как комплексное обследование, так и отдельные виды работ
       </h3>
-      <div className='scroll_container' style={{ width: '100vw'}}>
-        <HorizontalScroll pageLock={true} reverseScroll={true} className='scroll' style={{ height: '444px', width: '100vw' }}>
+      <div className='steptwo_scroll' style={{ width: '100vw'}}>
+        <HorizontalScroll pageLock={true} reverseScroll={true}  style={{ height: '444px', width: '100vw' }}>
           <div className='marginer_left'></div>
           <div className="services_item">
-            <img className="services_image" src={one}></img>
+            <img className="services_image" src={one} alt='services'></img>
             <h5>Общее обследование</h5>
             <p className="services_text">
               Экспертиза отдельных конструкций, обмерные работы, определение
@@ -26,7 +26,7 @@ const Services = () => (
             <p className="services_title">Подробнее</p>
           </div>
           <div className="services_item">
-            <img className="services_image" src={two}></img>
+            <img className="services_image" src={two} alt='services'></img>
             <h5>Тепловизионная съемка</h5>
             <p className="services_text">
               Исследование системы отопления, вентиляции и кондиционирования, а
@@ -35,7 +35,7 @@ const Services = () => (
             <p className="services_title">Подробнее</p>
           </div>
           <div className="services_item">
-            <img className="services_image" src={three}></img>
+            <img className="services_image" src={three} alt='services'></img>
             <h5>Телеинспекция инженерных сетей</h5>
             <p className="services_text">
               Цветная телевизионная съемка внутренней поверхности любых
@@ -44,7 +44,7 @@ const Services = () => (
             <p className="services_title">Подробнее</p>
           </div>
           <div className="services_item">
-            <img className="services_image" src={four}></img>
+            <img className="services_image" src={four} alt='services'></img>
             <h5>Тахеометрическая съемка</h5>
             <p className="services_text">
               Построение чертежей при помощи лазера, который с точностью до
