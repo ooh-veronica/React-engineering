@@ -1,0 +1,94 @@
+.services {
+    background: url(../../image//bg2.jpg) center / cover no-repeat;
+    height: 100%;
+}
+
+.services_title {
+    font-family: 'bebas-neue-bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FEE040;
+    text-align: start;
+}
+
+.services_title::after {
+    content: url('../../image/arrow\ \(Stroke\).svg');
+    padding-left: 14px;
+}
+
+.services h3 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0 36px;
+    padding: 0;
+}
+
+.services_main__title {
+    letter-spacing: 20px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'bebas-neue-bold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FEE040;
+}
+
+
+.sevices_list {
+    display: flex;
+    margin-left: 250px;
+}
+
+.services_image{
+    height: 180px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.services_item {
+    width: 400px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services_item h5 {
+    font-family: 'ProximaNovaBold';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.services_text {
+    font-family: 'ProximaNovaSBold';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+
+
+.services_item + .services_item {
+    margin-left: 80px;
+}
+
+.scroll-horizontal {
+  padding-left: 250px;
+  display: flex;
+}
+
+
+.progress_bar{
+    padding-bottom: 80px;
+}

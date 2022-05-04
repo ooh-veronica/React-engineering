@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 1420px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  width: 340px;
+  height: 70px;
+  border-radius: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  opacity: 0.2;
+  border: 1px solid #FFFFFF;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'GilroyExtraBold';
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+}
+
+h4 {
+  font-family: 'ProximaNovaBold';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.5px;
+  color: #151515;
+}
+
+
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("./fonts/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+  url("./fonts/ProximaNovaRegular.woff") format("woff"),
+  url("./fonts/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face { 
+  font-family: "ProximaNovaSBold";
+  src: url("./fonts/ProximaNova-Semibold.eot");
+  src: url("./fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),
+  url("./fonts/ProximaNova-Semibold.woff") format("woff"),
+  url("./fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face { 
+  font-family: "ProximaNovaBold";
+  src:  url("./fonts/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+@font-face { 
+  font-family: "GilroyBold";
+  src: url("./fonts/GilroyBold.eot");
+  src: url("./fonts/GilroyBold.eot?#iefix") format("embedded-opentype"),
+  url("./fonts/GilroyBold.woff") format("woff"),
+  url("./fonts/GilroyBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face { 
+  font-family: "GilroyExtraBold";
+  src: url("./fonts/GilroyExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face { 
+  font-family: "bebas-neue-bold";
+  src: url("./fonts/bebas-neue-bold.eot");
+  src: url("./fonts/bebas-neue-bold.eot?#iefix") format("embedded-opentype"),
+  url("./fonts/bebas-neue-bold.woff") format("woff"),
+  url("./fonts/bebas-neue-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
 }

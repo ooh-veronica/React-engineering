@@ -1,0 +1,156 @@
+.stepOne {
+    text-align: center;
+}
+
+
+.stepone_title {
+    font-family: 'bebas-neue-bold';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 64px;
+    letter-spacing: 5px;
+    background: linear-gradient(180deg, #60B6FF 0%, rgba(0, 78, 134, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    margin-top: 104px;
+    margin-bottom: 36px;
+}
+
+.stepone_text {
+    font-family: 'GilroyBold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #505050;
+    width: 504px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+
+.stepone_container {
+    display: flex;
+    height: 442px;
+}
+
+.stepone_main_title {
+    display: flex;
+    align-items: center;
+}
+
+
+.stepone_main_title::before {
+    content: 'шаг №1. ';
+    text-transform: uppercase;
+    font-family: 'ProximaNovaBold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    color: #151515;
+    background: #FEE040;
+    padding: 4px 10px;
+    margin-right: 20px;
+}
+.stepone_image {
+    width: 50%;
+    display: flex;
+}
+
+.stepone_content {
+    width: 50%;
+    text-align: start;
+    background: #F5F5F5;
+}
+
+.stepone_content h4 {
+    margin: 80px 0 18px 70px;
+}
+
+.stepone_content__text {
+    font-family: 'ProximaNovaSBold';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+    width: 460px;
+    margin-left: 70px;
+    margin-bottom: 32px;
+}
+
+.stepone_content__review {
+    font-family: 'ProximaNovaRegular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #505050;
+    opacity: 0.7;
+    width: 380px;
+
+}
+
+/* .stepone_content__review::before {
+    content: url('../../image/photoreview.svg');
+    border-radius: 100%;
+    margin-right: 20px;
+} */
+
+.review {
+    margin-left: 70px;
+    margin-bottom: 22px;
+    display: flex;
+}
+
+.review img {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+}
+
+.stepone_content__author {
+    margin-left: 158px;
+    font-family: 'ProximaNovaBold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    opacity: 0.7;
+}
+
+@media (max-width:1200px) {
+
+    .stepone_title {
+        font-size: 60px;
+    }
+    .stepone_content {
+        height: 80%;
+        width: 100%;
+    }
+    .stepone_content__text {
+        font-size: 14px;
+    }
+
+    .stepone_content__review {
+        font-size: 12px;
+    }
+
+    .stepone_content__author {
+        font-size: 12px;
+    }
+
+    .stepone_image {
+        width: 40%;
+        height: 80%;
+    }
+}
+

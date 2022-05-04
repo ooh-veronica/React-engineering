@@ -1,0 +1,144 @@
+.work {
+    position: relative;
+}
+
+
+.description_container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.work_description {
+    width: 460px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.work_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.work_description h3 {
+    color: #151515;
+    padding-bottom: 50px;
+}
+
+.work_description p {
+    font-family: 'ProximaNovaSBold';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #707070;
+    opacity: 0.7;
+}
+
+.pluses_container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.work_pluses {
+    width: 460px;
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+.work_pluses h4 {
+  padding-bottom: 28px;
+}
+.work_item {
+    position: relative;
+}
+
+.work_item + .work_item {
+    padding-top: 20px;
+}
+
+.work_item__text {
+    font-family: 'ProximaNovaSBold';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    color: #333333;
+    opacity: 0.7;
+    padding-left: 56px;
+}
+
+.work_item::before {
+    content: url('../../image//icon.svg');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: cover;
+    
+}
+
+@media (max-width:1200px) {
+    .work_image {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .work_description p {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .work_pluses {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width:968px) {
+    .work {
+        flex-direction: column;
+    }
+
+    .description_container {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .work_description {
+        text-align: center;
+        width: 600px;
+        max-width: 600px;
+        padding: 100px 0 60px;
+    }
+
+    .pluses_container {
+        width: 100%;
+    }
+
+    .work_image {
+        display: none;
+    }
+
+    .pluses_container::before {
+        content: url('../../image/tv.svg');
+        display: flex;
+    }
+
+    .work_pluses {
+        padding: 10px 0;
+    }
+}
